@@ -1,6 +1,6 @@
 # Fruit Stand
 
-### v1.0.1
+### v1.0.2.1a
 
 Fruit Stand generates lists or dictionaries of fruits to streamline to demonstration of Python fundumentals involving the two data types.
 
