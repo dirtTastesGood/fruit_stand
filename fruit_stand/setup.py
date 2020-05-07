@@ -6,7 +6,7 @@ with open("README.md") as readme:
 
 setup(
     name="fruit_stand",
-    version="1.0.2.1c",
+    version="1.0.2.1d",
     description="Generate lists and dictionaries with fruit names and random pricing data for demonstrating fundamentals in Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
