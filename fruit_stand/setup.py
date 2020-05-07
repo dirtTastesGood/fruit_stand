@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
+import entrypoints
 
 with open("README.md") as readme:
     long_description = readme.read()
 
 setup(
     name="fruit_stand",
-    version="1.0.2.1a",
+    version="1.0.2.1c",
     description="Generate lists and dictionaries with fruit names and random pricing data for demonstrating fundamentals in Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -15,6 +16,9 @@ setup(
     packages=find_packages(exclude=[]),
     python_requires=">=3.6",
     install_requires=[],
+    # entry_points={
+    #     "module_imports":["fruit_stand=src.fruit_stand:all_fruits"],
+    # },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
