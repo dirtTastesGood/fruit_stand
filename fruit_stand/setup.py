@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import entrypoints
 
 with open("README.md") as readme:
     long_description = readme.read()
@@ -16,9 +15,7 @@ setup(
     packages=find_packages(exclude=[]),
     python_requires=">=3.6",
     install_requires=[],
-    # entry_points={
-    #     "module_imports":["fruit_stand=src.fruit_stand:all_fruits"],
-    # },
+
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
